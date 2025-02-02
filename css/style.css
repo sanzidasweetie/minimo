@@ -67,11 +67,12 @@ header{
 /*banner end*/
 /*article start*/
 .article{
-	padding: 100px 0 100px;
+	padding: 100px 0 30px;
 }
 .container2{
 	margin: 0 auto;
 	width: 80%;
+	overflow: hidden;
 	/*border: 1px solid;*/
 }
 .article_content{}
@@ -98,6 +99,28 @@ header{
 }
 
 /*article end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.bg_item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+}
+.bg_item:nth-child(even){
+	margin-left: 6%;
+}
+.bg_img{
+	margin-bottom: 25px;
+}
+.bg_img img{
+	width: 100%;
+}
+
+
+/*blog end*/
 /*news start*/
 .news{
 	padding: 70px 0;
