@@ -170,3 +170,53 @@ header{
 }
 .s_form button img{}
 /*news end*/
+/*blog2 start*/
+.blog2{
+	padding-top: 30px;
+}
+.load{
+	padding: 150px 0 100px;
+	text-align: center;
+}
+.l_btn{
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 0;
+	border: 1px solid #626262;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s linear;
+}
+.l_btn:hover{
+	color: white;
+	background-color: #626262;
+}
+/*blog2 2nd*/
+/*footer start*/
+footer{}
+.container3{
+	width: 80%;
+	height: 200px;
+}
+.container{
+	
+}
+.pages{
+	width: 30%;
+	height: 10px;
+    float: left;
+  
+}
+.ul{}
+.ul li{
+	float: left;
+}
+.ul li a{}
+.social{
+	float: right;
+}
+/*footer end*/
